@@ -1,0 +1,68 @@
+{
+  "dependencies": {
+    "bloody-matches": "0.0.1",
+    "bloody-stream": "0.1.0"
+  },
+  "devDependencies": {
+    "tape": "^2.13.4"
+  },
+  "testling": {
+    "files": "test/**.js",
+    "browsers": {
+      "ie": [
+        9,
+        10
+      ],
+      "firefox": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "chrome": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "safari": [
+        5.1,
+        6
+      ],
+      "opera": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "iphone": [
+        6
+      ],
+      "ipad": [
+        6
+      ]
+    }
+  },
+  "name": "bloody-domeventstream",
+  "description": "## install",
+  "version": "0.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "testling"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bloodyowl/domevent-stream.git"
+  },
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/domevent-stream/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/domevent-stream"
+}
